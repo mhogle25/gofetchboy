@@ -1,0 +1,4 @@
+SCRIPT_PATH=$(readlink -f "$0") # Resolve the symlink if it exists
+SCRIPT_DIR=$(dirname "$SCRIPT_PATH")
+cd $SCRIPT_DIR
+neofetch --ascii mutt
